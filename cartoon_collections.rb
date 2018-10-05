@@ -6,7 +6,9 @@ end
 
 
 def summon_captain_planet(array)
-  
+  array.collect do |word|
+    word.capitalize + '!'
+  end
 end
 
 
